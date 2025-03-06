@@ -1,5 +1,2 @@
-FROM httpd
-MAINTAINER name pravali
-LABEL this is my app image
-EXPOSE 80
+FROM httpd:2.4
 COPY . /user/local/apache2/htdocs/
